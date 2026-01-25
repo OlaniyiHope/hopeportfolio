@@ -1,13 +1,10 @@
 import React from "react";
 import "./header.css";
 import starSticky from "../design/design1.png";
-import scribble from "../design/design2.png";
-import bulb from "../design/design3.png";
 import redStar from "../design/design4.png";
 import smileDots from "../design/design5.png";
 import arrow from "../design/design6.png";
 import buttonBlob from "../design/design7.png";
-import cornerStar from "../design/design8.png";
 import hope from "./hope.JPG";
 
 const Hero2 = () => {
