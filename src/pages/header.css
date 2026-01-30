@@ -488,3 +488,66 @@ height: 108px !important;
   align-items: center;
   gap: 12px;
 }
+/* ================= DARK MODE ================= */
+
+body.dark {
+  background: #000;
+  color: #fff;
+}
+
+/* header background */
+body.dark .zn-header,
+body.dark .hero {
+  background: #000;
+  background-image: radial-gradient(#333 1px, transparent 1px);
+}
+
+/* framed boxes */
+body.dark .zn-frame,
+body.dark .hero-frame,
+body.dark .zn-mobile-menu {
+  background: #000;
+  border-color: #fff;
+}
+
+/* nav links */
+body.dark .zn-nav a,
+body.dark .zn-mobile-menu a,
+body.dark .hero h1,
+body.dark .hero h3 {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* logo */
+body.dark .zn-name a {
+  color: #fff !important;
+}
+
+/* active nav */
+body.dark .zn-nav .active {
+  background: #333;
+}
+
+/* buttons */
+body.dark .hero-btn {
+  background: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* frame lines */
+body.dark .frame-line {
+  background: #fff;
+}
+
+/* highlights */
+body.dark .highlight {
+  background: #444;
+  color: #fff;
+}
+
+/* arrows + doodles */
+body.dark svg path {
+  stroke: #fff;
+}

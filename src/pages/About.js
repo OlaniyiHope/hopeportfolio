@@ -13,7 +13,7 @@ const About = () => {
       {/* <Header /> */}
       <Header2 />
 
-      <What />
+      {/* <What /> */}
       <Work />
       <TechStack />
 

@@ -694,3 +694,91 @@
   }
 }
 
+/* ================= FEATURED DARK MODE ================= */
+
+body.dark .featured-section {
+  background: #000;
+  background-image: radial-gradient(#333 1px, transparent 1px);
+}
+
+body.dark .featured-label,
+body.dark .featured-desc {
+  color: #fff;
+}
+
+/* cards */
+
+body.dark .featured-card {
+  background: #000;
+  border: 3px solid #fff;
+}
+
+/* images container */
+
+body.dark .featured-image {
+  background: #000;
+}
+
+/* footer text */
+
+body.dark .featured-footer p {
+  color: #fff;
+}
+
+/* tags / visit buttons */
+
+body.dark .tag {
+  color: #fff !important;
+  border: 2px solid #fff;
+}
+
+/* doodles + svg */
+
+body.dark svg path {
+  stroke: #fff;
+}
+
+body.dark .what-icon {
+  filter: invert(1);
+}
+
+/* subtle hover */
+
+body.dark .featured-card:hover {
+  background: #111;
+}
+/* ================= FOOTER DARK MODE ================= */
+
+body.dark .portfolio-footer {
+  background: #000;
+}
+
+body.dark .footer-frame {
+  background: #000;
+}
+
+/* frame lines */
+
+body.dark .footer-line {
+  background: #fff;
+}
+
+/* text */
+
+body.dark .footer-name,
+body.dark .footer-copy {
+  color: #fff;
+}
+
+/* socials */
+
+body.dark .footer-btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* logo (invert white/black) */
+
+body.dark .footer-logo {
+  filter: invert(1);
+}

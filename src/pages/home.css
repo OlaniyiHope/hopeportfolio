@@ -938,3 +938,109 @@ body {
     transform: none !important;
   }
 }
+/* ================= SERVICES DARK MODE ================= */
+
+body.dark .services-section {
+  background: #000;
+  background-image: radial-gradient(#333 1px, transparent 1px);
+}
+
+body.dark .services-title {
+  color: #fff;
+}
+
+/* stats */
+
+body.dark .services-stats h3,
+body.dark .services-stats p {
+  color: #fff;
+}
+
+/* cards */
+
+body.dark .service-card {
+  background: #000;
+  border: 3px solid #fff;
+  box-shadow: none;
+}
+
+body.dark .service-card h4,
+body.dark .service-card p {
+  color: #fff;
+}
+
+/* learn more */
+
+body.dark .learn-more {
+  color: #fff;
+}
+
+/* icons stay colorful but outlined */
+
+body.dark .icon {
+  border: 2px solid #fff;
+}
+
+/* subtle hover */
+
+body.dark .service-card:hover {
+  transform: translateY(-4px);
+  background: #111;
+}
+/* ================= CONTACT DARK MODE ================= */
+
+body.dark .contact-section {
+  background: #000;
+  background-image: radial-gradient(#333 1px, transparent 1px);
+}
+
+body.dark .contact-label,
+body.dark .contact-desc {
+  color: #fff;
+}
+
+/* form container */
+
+body.dark .contact-form {
+  background: #000;
+  border: 3px solid #fff;
+}
+
+/* rows */
+
+body.dark .contact-row {
+  border-color: #fff;
+}
+
+/* inputs */
+
+body.dark .contact-input {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+body.dark .contact-input::placeholder {
+  color: #aaa;
+}
+
+/* tags */
+
+body.dark .contact-tag {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/* button */
+
+body.dark .contact-submit {
+  background: #111;
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+/* doodle image */
+
+body.dark .what-icon {
+  filter: invert(1);
+}
