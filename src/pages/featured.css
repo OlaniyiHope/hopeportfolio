@@ -772,11 +772,15 @@ body.dark .footer-copy {
 
 /* socials */
 
-body.dark .footer-btn {
+/* body.dark .footer-btn {
   color: #fff;
   border: 2px solid #fff;
+} */
+body.dark .footer-btn {
+  color: #000; /* text color on dark button */
+  background: #fff; /* button background on dark mode */
+  border: 2px solid #fff;
 }
-
 /* logo (invert white/black) */
 
 body.dark .footer-logo {

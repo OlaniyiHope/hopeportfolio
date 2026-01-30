@@ -58,7 +58,7 @@ const Header2 = () => {
           <div className="zn-left">
             <span className="zn-star">✦</span>
             <span className="zn-name">
-              <a href="/">HOPE OLANIYI</a>
+              <a href="/" style={{textDecoration: "none"}}>HOPE OLANIYI</a>
             </span>
           </div>
 

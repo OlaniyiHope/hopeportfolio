@@ -27,6 +27,9 @@
   font-family: "InterBold";
   font-size: 18px;
 }
+.zn-left a{
+  color: #000;
+}
 
 .zn-star {
   font-size: 20px;
@@ -523,6 +526,7 @@ body.dark .hero h3 {
 body.dark .zn-name a {
   color: #fff !important;
 }
+
 
 /* active nav */
 body.dark .zn-nav .active {
