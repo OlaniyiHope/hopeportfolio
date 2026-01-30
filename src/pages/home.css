@@ -1044,3 +1044,31 @@ body.dark .contact-submit {
 body.dark .what-icon {
   filter: invert(1);
 }
+/* ===== TECH STACK DARK MODE ===== */
+body.dark .tech-section {
+  background: #000;
+  background-image: radial-gradient(#333 1px, transparent 1px);
+  color: #fff;
+}
+
+body.dark .tech-header h2,
+body.dark .tech-header p {
+  color: #fff;
+}
+
+body.dark .tech-card {
+  background: #111;
+  border: 2px solid #fff;
+}
+
+body.dark .tech-card h3 {
+  color: #fff;
+}
+
+body.dark .tech-id {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+body.dark .tech-card:hover {
+  box-shadow: 0 12px 40px rgba(255, 255, 255, 0.2);
+}
