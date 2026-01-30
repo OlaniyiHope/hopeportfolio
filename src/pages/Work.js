@@ -26,66 +26,80 @@ const ArrowSvg = () => (
   </svg>
 );
 
+// 👉 Your real CV experience (easy to extend later)
+const workExperience = [
+  {
+    id: 1,
+    color: "yellow",
+    role: "Full Stack Mobile Developer",
+    company: "Praix Development",
+    desc: "Built web & mobile apps for clients using Node.js, Next.js and React Native.",
+    date: "Apr – Aug 2025",
+  },
+  {
+    id: 2,
+    color: "blue",
+    role: "Full Stack Developer",
+    company: "Skillovia (UK)",
+    desc: "Created APIs, implemented geo-location skill matching and token systems.",
+    date: "Jan – Mar 2025",
+  },
+  {
+    id: 3,
+    color: "pink",
+    role: "Mobile Developer",
+    company: "EdSofta",
+    desc: "Built desktop apps with Electron and ~100 React Native screens for CBT, payments and AI.",
+    date: "Sept – Dec 2025",
+  },
+  {
+    id: 4,
+    color: "green",
+    role: "Software Engineer",
+    company: "ParkWell, Lagos",
+    desc: "Worked on mobile UI with Ionic and backend APIs using NestJS & TypeORM.",
+    date: "2024",
+  },
+];
+
 const Work = () => {
   return (
     <section className="featured-section work-frame">
-            <div className="container">
-              <div className="featured-inner">
+      <div className="container">
+        <div className="featured-inner">
 
-         {/* <span className="frame-line top" />
-      <span className="frame-line bottom" />
-      <span className="frame-line left" />
-      <span className="frame-line right" />
-      <span className="frame-line middle" /> */}
+          {/* LEFT */}
+          <div className="featured-left">
+            <span className="featured-label">Work Experience</span>
 
-      {/* LEFT */}
-      <div className="featured-left">
-        <span className="featured-label">Work Experience</span>
+            <p className="featured-desc">
+              Building scalable web & mobile products <br />
+              for over 5 years
+            </p>
 
-        <p className="featured-desc">
-          Have been designing <br />
-          since my past 4 years
-        </p>
-
-        <ArrowSvg />
-      </div>
-
-      {/* RIGHT */}
-      <div className="work-timeline">
-        <div className="work-item">
-          <div className="work-number yellow">1</div>
-          <div className="work-content">
-            <h4>
-              Design intern at <span>Google</span>
-            </h4>
-            <p>Worked on design system at Material 3 designs</p>
-            <small>20, April 2021</small>
+            <ArrowSvg />
           </div>
-        </div>
 
-        <div className="work-item">
-          <div className="work-number blue">2</div>
-          <div className="work-content">
-            <h4>
-              Sr. UI/UX Designer at <span>Microsoft</span>
-            </h4>
-            <p>Worked on design system at Material 3 designs</p>
-            <small>20, April 2022</small>
-          </div>
-        </div>
+          {/* RIGHT */}
+          <div className="work-timeline">
+            {workExperience.map((item) => (
+              <div className="work-item" key={item.id}>
+                <div className={`work-number ${item.color}`}>
+                  {item.id}
+                </div>
 
-        <div className="work-item">
-          <div className="work-number pink">3</div>
-          <div className="work-content">
-            <h4>
-              Software Engineer at <span>SASS Startup</span>
-            </h4>
-            <p>Worked on design system at Material 3 designs</p>
-            <small>20, April 2023</small>
+                <div className="work-content">
+                  <h4>
+                    {item.role} at <span>{item.company}</span>
+                  </h4>
+                  <p>{item.desc}</p>
+                  <small>{item.date}</small>
+                </div>
+              </div>
+            ))}
           </div>
+
         </div>
-      </div>
-      </div>
       </div>
     </section>
   );

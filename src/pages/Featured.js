@@ -1,6 +1,12 @@
 import React from "react";
 import "./featured.css";
+import laugh from "./skill.png";
 import what from "../design/what.png";
+import one from "./one.png";
+import { Navigate } from "react-router-dom";
+// import two from "./two.png";
+// import three from "./three.png";
+// import four from "./four.png";
 const Featured = () => {
   return (
     <section className="featured-section">
@@ -14,8 +20,8 @@ const Featured = () => {
         <span className="featured-label">Featured Projects</span>
 
         <p className="featured-desc">
-          Have designed<br />
-          morethan 20 projects
+      Portfolio showcase<br />
+          of some of my work.
         </p>
       </div>
 
@@ -24,42 +30,82 @@ const Featured = () => {
         {/* CARD 1 */}
         <div className="featured-card tilt-left">
           <div className="featured-image placeholder">
-            Portfolio Design
+      <img src={laugh} alt="" />
           </div>
 
-          <div className="featured-footer">
-            <p>4 style Portfolio design</p>
-            <span className="tag pink">No-Code</span>
-          </div>
+      <div className="featured-footer">
+  <p>Skillovia</p>
+
+  <a
+    href="https://www.skillovia.co.uk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="tag pink"
+    style={{color: "black", textDecoration: "none"}}
+  >
+    Visit
+  </a>
+</div>
+
         </div>
 
         {/* CARD 2 */}
         <div className="featured-card tilt-right purple">
-          <div className="featured-image app-ui" />
+           <div className="featured-image placeholder">
+      <img src={one}  alt="" />
+          </div>
 
           <div className="featured-footer">
             <p>Color system for app</p>
-            <span className="tag blue">UI Design</span>
+        <a
+    href="https://www.skillovia.co.uk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="tag blue"
+    style={{color: "black", textDecoration: "none"}}
+  >
+    Visit
+  </a>
           </div>
         </div>
 
         {/* CARD 3 */}
         <div className="featured-card tilt-left">
-          <div className="featured-image sketch" />
+         <div className="featured-image placeholder">
+      <img src={one}  alt="" />
+          </div>
 
           <div className="featured-footer">
             <p>Onboarding screen process</p>
-            <span className="tag yellow">UX Design</span>
+             <a
+    href="https://www.skillovia.co.uk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="tag yellow"
+    style={{color: "black", textDecoration: "none"}}
+  >
+    Visit
+  </a>
           </div>
         </div>
 
         {/* CARD 4 */}
         <div className="featured-card tilt-right">
-          <div className="featured-image phone-ui" />
+           <div className="featured-image placeholder">
+      <img src={one} alt="" />
+          </div>
 
           <div className="featured-footer">
             <p>Finance Landing page</p>
-            <span className="tag green">UI Design</span>
+         <a
+    href="https://www.skillovia.co.uk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="tag green"
+    style={{color: "black", textDecoration: "none"}}
+  >
+    Visit
+  </a>
           </div>
         </div>
       </div>

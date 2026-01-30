@@ -19,7 +19,7 @@ import mongoIcon from "../techicon/mongodb.png";
 const stack = [
   { id: "01", name: "React.js", icon: reactIcon },
   { id: "02", name: "Next.js", icon: nextIcon },
-  { id: "03", name: "Golang", icon: awsIcon },
+  { id: "03", name: "Aws", icon: awsIcon },
   { id: "04", name: "TypeScript", icon: tsIcon },
   { id: "05", name: "React Native", icon: rnIcon },
   { id: "06", name: "PostgreSQL", icon: postgresIcon },
