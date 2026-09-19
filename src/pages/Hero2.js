@@ -24,9 +24,18 @@ const Hero2 = () => {
         <span>I'm a Software Developer and Content Creator, passionate about sharing my journey learning to code and making it in the tech industry. </span>
         </h3>
 
-        <a className="hero-btn" href="/portfolio">
-          See Portfolio
-        </a>
+        <div className="hero-btn-row">
+          <a className="hero-btn" href="/portfolio">
+            See Portfolio
+          </a>
+          <a
+            className="hero-btn hero-btn-outline"
+            href="/Hope_Olaniyi_CV.pdf"
+            download="Hope_Olaniyi_CV.pdf"
+          >
+            Download CV
+          </a>
+        </div>
              <img src={buttonBlob} className="doodle btn-blob" alt="" />
       </div>
 

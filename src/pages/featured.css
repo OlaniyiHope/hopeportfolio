@@ -123,6 +123,26 @@
   background: linear-gradient(#b9d6f2, #dbe9f4);
 }
 
+/* LOGO CARDS — always a white plate so transparent-bg logos stay visible in dark mode */
+.featured-image.logo-box {
+  background: #fff !important;
+  padding: 24px;
+}
+
+.featured-image.logo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+.logo-initials {
+  font-family: "InterBold";
+  font-size: 42px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
 .app-ui {
   background: #e9d5ff;
 }
@@ -263,6 +283,10 @@
 
 .work-number.pink {
   background: var(--pink-light);
+}
+
+.work-number.green {
+  background: #6ee7b7;
 }
 
 /* CONTENT */

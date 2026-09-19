@@ -26,7 +26,6 @@
 // };
 
 // export default Home;
-import { useEffect } from "react";
 import What from "./What";
 import "./home.css";
 import Featured from "./Featured";
@@ -37,16 +36,6 @@ import Hero2 from "./Hero2";
 import Services from "./Services";
 
 const Home = () => {
-  useEffect(() => {
-    // Add dark mode by default
-    document.body.classList.add("dark");
-
-    // Optional: clean up if component unmounts
-    return () => {
-      document.body.classList.remove("dark");
-    };
-  }, []);
-
   return (
     <>
       <Header2 />

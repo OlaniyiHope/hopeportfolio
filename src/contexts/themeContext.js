@@ -31,14 +31,14 @@ import React, { createContext, useState, useContext, useEffect } from "react";
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-  // ✅ Default to dark mode
+  // ✅ Default to light mode
   const [darkMode, setDarkMode] = useState(() => {
     // Check localStorage first
     const saved = localStorage.getItem("darkMode");
     if (saved !== null) {
       return saved === "true"; // use saved preference
     }
-    return true; // default dark mode
+    return false; // default light mode
   });
 
   const toggleTheme = () => {

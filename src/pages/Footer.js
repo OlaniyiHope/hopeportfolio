@@ -22,13 +22,28 @@ const Footer = () => {
           </div>
 
           {/* CENTER */}
-          <p className="footer-copy">Copyright. Portfolio 2024</p>
+          <p className="footer-copy">Copyright. Portfolio 2026</p>
 
           {/* RIGHT */}
           <div className="footer-socials">
-            <a href="#" className="footer-btn">Twitter X</a>
-            <a href="#" className="footer-btn">LinkedIn</a>
-            <a href="#" className="footer-btn">Instagram</a>
+            <a
+              href="https://instagram.com/hopeolaniyi.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-btn"
+            >
+              Instagram
+            </a>
+            <a href="mailto:olaniyihoppee@gmail.com" className="footer-btn">
+              Email
+            </a>
+            <a
+              href="/Hope_Olaniyi_CV.pdf"
+              download="Hope_Olaniyi_CV.pdf"
+              className="footer-btn"
+            >
+              Download CV
+            </a>
           </div>
         </div>
 
