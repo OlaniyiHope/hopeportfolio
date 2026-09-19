@@ -86,9 +86,9 @@ const Header2 = () => {
         {/* MOBILE MENU */}
         {open && (
           <div className="zn-mobile-menu">
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Hire Me</a>
+            <a href="/about-me">About</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href="/hire-me">Hire Me</a>
           </div>
         )}
       </div>
